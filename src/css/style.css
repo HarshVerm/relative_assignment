@@ -9,7 +9,8 @@ html {
   font-size: 80%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #14172B; }
 
 body {
   font-family: "Lato", sans-serif;
@@ -33,3 +34,46 @@ body {
 
 .u-margin-top-huge {
   margin-top: 10rem; }
+
+.card-container {
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+  backdrop-filter: blur(50px);
+  position: relative;
+  padding-top: 30px;
+  margin-top: 170px;
+  box-shadow: 0px 0px 67px 1px rgba(0, 0, 0, 0); }
+
+.card-section-header {
+  position: absolute;
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  top: -5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid white;
+  border-radius: 100%; }
+  .card-section-header-header i::before {
+    position: absolute;
+    content: "";
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    top: 40px;
+    left: -17px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -6px white; }
+  .card-section-header-header i::after {
+    position: absolute;
+    content: "";
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    top: 40px;
+    right: -17px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: 0px -6px white; }
